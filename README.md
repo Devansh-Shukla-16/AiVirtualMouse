@@ -24,33 +24,19 @@ This project allows you to control your mouse cursor using hand gestures detecte
 
 ---
 
-## 📁 Project Structure
-AiVirtualMouse/
-│
-├── HandTrackingModule.py # Handles MediaPipe-based hand tracking
-├── main.py # Main application logic for virtual mouse
-├── .venv/ # Python 3.9 virtual environment
-└── README.md # Project info
-
-
 ---
 
 ## 🔧 Setup Instructions
 
-### Step 1: Clone the Repository
-  git clone https://github.com/your-username/AiVirtualMouse.git
-  cd AiVirtualMouse
-
-
-Step 2: Create & Activate Virtual Environment (Python 3.9)
+### Step 1: Create & Activate Virtual Environment (Python 3.9)
   python -m venv .venv
   .venv\Scripts\activate  # Windows
 
 
-Step 3: Install Dependencies
+Step 2: Install Dependencies
   pip install opencv-python mediapipe autopy numpy==1.23.5
 
-Step 4: Run the python program
+Step 3: Run the python program
   python main.py
 
 
